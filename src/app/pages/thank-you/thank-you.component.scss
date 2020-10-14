@@ -1,0 +1,42 @@
+.color {
+    color: blue;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: AjackusRegular;
+    letter-spacing: 2px;
+  }
+  
+  .color2 {
+    color: red;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: AjackusRegular;
+  }
+  
+  .margin {
+  margin-top: 2%;
+  }
+  
+  .danger {
+      border-color:  #de3c3c;
+      border-width: 2px;
+      border-radius: 0%;
+      padding: 12px;
+      color: #de3c3c;
+    }
+  
+  .transparent {
+      padding: 12px;
+      color: grey;
+  }
+  .headerfont {
+    color: #de3c3c;
+    font-family: AjackusBold;
+    font-size: 50px;
+  }
+  
+  .regularfont {
+      font-family: AjackusRegular;
+      color: grey;
+      font-size: 18px;
+  }
