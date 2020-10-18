@@ -4,73 +4,80 @@
     font-weight: bold;
     font-family: AjackusRegular;
     letter-spacing: 2px;
-  }
-  
-  .color2 {
+}
+
+.color2 {
     color: red;
     font-size: 22px;
     font-weight: bold;
     font-family: AjackusRegular;
-  }
-  
-  .margin {
-  margin-top: 2%;
-  }
+}
 
-  .formmargin {
+.margin {
+    margin-top: 2%;
+}
+
+.formmargin {
     margin-top: 8%;
-    }
-  
-  .danger {
-      border-color:  #de3c3c;
-      border-width: 2px;
-      border-radius: 0%;
-      padding: 12px;
-      color: #de3c3c;
-      width: 26%;
-    }
-  
-  .transparent {
-      padding: 12px;
-      color: grey;
-  }
-  .headerfont {
+}
+
+.danger {
+    border-color: #de3c3c;
+    border-width: 2px;
+    border-radius: 0%;
+    padding: 12px;
+    color: #de3c3c;
+    width: 26%;
+}
+
+.transparent {
+    padding: 12px;
+    color: grey;
+}
+
+.headerfont {
     color: #de3c3c;
     font-family: AjackusBold;
     font-size: 50px;
-  }
-  
-  .regularfont {
-      font-family: AjackusRegular;
-      color: #606360;
-      font-size: 18px;
-  }
-  
-
-::placeholder {
-  font-family: AjackusRegular;
-  color: white;
-  font-weight: bold;
 }
 
-  input[type=text] {
+.regularfont {
+    font-family: AjackusRegular;
+    color: #606360;
+    font-size: 18px;
+}
+
+::placeholder {
+    font-family: AjackusRegular;
+    color: white;
+    font-weight: bold;
+}
+
+.inputcolor {
+    font-family: AjackusRegular;
+    color: white;
+    font-weight: bold;
+}
+
+input[type=text] {
     width: 100%;
     height: 70px;
     padding: 12px;
     box-sizing: border-box;
     background-color: #555755;
-  }
+}
 
-  input[type=email] {
+input[type=email] {
     width: 100%;
     height: 70px;
     padding: 12px 20px;
     box-sizing: border-box;
     background-color: #404541;
-  }
-  input[type=tel] {
+}
+
+input[type=tel] {
     width: 100%;
     height: 70px;
     padding-left: 12px;
     box-sizing: border-box;
-  }
+}

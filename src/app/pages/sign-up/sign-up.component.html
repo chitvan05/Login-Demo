@@ -1,42 +1,42 @@
 <div class="container d-flex justify-content-center margin">
-  <div class="col-md-6">
+    <div class="col-md-6 col-sm-6">
 
-    <div class="row d-flex justify-content-center margin">
-      <span class="color2 d-flex justify-content-center">Q</span>
+        <div class="row d-flex justify-content-center margin">
+            <span class="color2 d-flex justify-content-center">Q</span>
+        </div>
+
+        <div class="row d-flex justify-content-center margin">
+            <span class="regularfont">Please confirm or edit your contact information so that we can</span>
+        </div>
+        <div class="row d-flex justify-content-center">
+            <span class="regularfont">notify you when you are approved for our BETA.</span>
+        </div>
+
+        <hr>
+
+        <form class="container formmargin" ngNativeValidate (ngSubmit)="doSignUp()" #signupform="ngForm">
+            <div class="form-group ">
+                <label for="username" class="regularfont">NAME</label>
+                <input type="text" class="form-control inputcolor" id="username" name="username" placeholder="john Doe" [(ngModel)]="signup.username" readonly required>
+            </div>
+
+            <div class="form-group ">
+                <label for="email" class="regularfont">EMAIL ADDRESS</label>
+                <input type="text" class="form-control  inputcolor" id="email" name="email" placeholder="john@requantive.com" [(ngModel)]="signup.email" readonly required>
+            </div>
+
+            <div class="form-group">
+                <label for="phone" class="regularfont">PHONE NUMBER</label>
+                <input type="tel" class="form-control" maxlength="10" id="phone" name="phone" placeholder="Type a phone number" [(ngModel)]="signup.phone" required>
+            </div>
+
+            <br>
+            <hr class="formmargin">
+            <div class="row d-flex justify-content-center margin">
+                <button type="submit" class="btn danger">SIGN UP</button>
+            </div>
+
+        </form>
+
     </div>
-
-    <div class="row d-flex justify-content-center margin">
-      <span class="regularfont">Please confirm or edit your contact information so that we can</span>
-    </div>
-    <div class="row d-flex justify-content-center">
-      <span class="regularfont">notify you when you are approved for our BETA.</span>
-    </div>
-
-    <hr>
-
-    <form class="container formmargin">
-      <div class="form-group ">
-        <label for="formGroupExampleInput" class="regularfont">NAME</label>
-        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="john Doe" readonly>
-      </div>
-
-      <div class="form-group ">
-        <label for="formGroupExampleInput" class="regularfont">EMAIL ADDRESS</label>
-        <input type="text" class="form-control placeholderfont" id="formGroupExampleInput" placeholder="john@requantive.com" readonly>
-      </div>
-
-      <div class="form-group">
-        <label for="formGroupExampleInput2" class="regularfont">PHONE NUMBER</label>
-        <input type="tel" class="form-control" id="formGroupExampleInput2" placeholder="Type a phone number">
-      </div>
-
-      <br>
-      <hr class="formmargin">
-      <div class="row d-flex justify-content-center margin">
-        <button type="button" class="btn danger" >SIGN UP</button>
-    </div>
-      
-    </form>
-
-  </div>
 </div>
